@@ -143,10 +143,6 @@ if currentStep == 2:
         st.write("**Global deaths (counts) attributable to and associated with AMR by pathogen**")
         st.write("")
         st.write("")
-        st.write("")
-        st.write("")
-        st.write("")
-        st.write("")
         st.image('assets/death_by_pathogen.jpg', output_format='jpg', use_column_width=True)
     
     st.markdown('''
