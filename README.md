@@ -35,7 +35,7 @@ The following packages are imported in the code:
 - scikit-learn==1.3.2
 
 # Datasets
-The dataset used for this projects is the Pfizer's ATLAS dataset, provided for the project under the 2024 Vivli AMR Open Data Challenge (https://amr.vivli.org/data-challenge/data-challenge-overview/)
+The dataset used for this projects is the Pfizer's ATLAS dataset, provided for the project under the 2024 Vivli AMR Open Data Challenge (https://amr.vivli.org/data-challenge/data-challenge-overview/).
 
 # APPLICATION FUNCTIONALITIES
 # Explorative Data Analysis
