@@ -350,7 +350,7 @@ if currentStep == 1:
                         for node_type, color in node_color_map.items()]
         plt.legend(handles=legend_labels, loc='upper left')
 
-        plt.title(f'Genotypes Network Diagram for {species} in {region_type} (Top {top_n_strains} Strains)')
+        plt.title(f'Genotypes Network Diagram for {species} in {region_type} (Top {top_n_strains} variants)')
         st.pyplot(plt)
 
 
