@@ -181,7 +181,7 @@ if currentStep == 0:
         ))
 
         fig.update_layout(
-            title_text='A Sankey Diagram Linking Bacterial Species taxonomically to gene strains',
+            title_text='A Sankey Diagram Linking Bacterial Species taxonomically to genotype variants',
             font_size=8,
             width=1000,
             height=1000
@@ -229,8 +229,8 @@ if currentStep == 0:
     st.markdown('#### Sankey Diagram of Selected Gene Sub-classes')
     with st.expander("Plot 4 - Markdown"):
         st.markdown('''
-            * _Sankey diagram with selected antibiotic(s) arranged down the left-hand side, and AMR gene strains to the right-hand end._
-            * _Output demonstrate flow of state from selected organisms, through gene subclass, and down to genetic strain of AMR determinant genes._
+            * _Sankey diagram with selected antibiotic(s) arranged down the left-hand side, and AMR gene variants to the right-hand end._
+            * _Output demonstrate flow of state from selected organisms, through gene subclass, and down to variants of AMR determinant genes._
         ''')
     if gene_classes:
         filtered_data = ATLAS_Dataset[ATLAS_Dataset['Continents'].isin(region_type)]
@@ -247,7 +247,7 @@ if currentStep == 1:
                                                    'Providencia stuartii'])
         region_type = st.selectbox('Select Continent', ['Africa','Europe', 'North America','South America','Asia','Oceania'])
         genotypes = st.slider('Select Number of Top Genotypes to Display', min_value=1, max_value=3, value=1)
-        top_n_strains = st.slider('Select Number of strains to network', min_value=1, max_value=10, value=10)
+        top_n_strains = st.slider('Select Number of variants to network', min_value=1, max_value=10, value=10)
 
 # Function to create a world map showing the top most prevalent genotypes for a selected species
 # The 'genotypes' argument specifies the number of top genotypes to be visualized (1, 2, 3, etc.)
