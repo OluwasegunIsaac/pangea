@@ -77,7 +77,7 @@ with col2:
     st.markdown('''
                 Traditional methods like antimicrobial susceptibility testing (AST), mainly used 
                 for AMR surveillance in Africa, need more details on resistance mechanisms and are 
-                inefficient in the early detection of pathogenic outbreaks. Next-generation 
+                insufficient in the early detection of pathogenic outbreaks. Next-generation 
                 sequencing (NGS) offers a more precise view, but its high cost limits its use in 
                 the continent. This necessitates innovative solutions for addressing the challenges 
                 of African countries in tackling AMR.
